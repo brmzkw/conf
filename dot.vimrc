@@ -5,7 +5,6 @@
 " :BundleInstall
 " and Relaunch vim
 
-
 set nocompatible
 
 " Vundle configuration
@@ -61,7 +60,6 @@ set directory=~/.vimbackups
 """""" python-mode configuration
 " code checker
 let g:pymode_lint_checker = "pylint"
-let g:pymode_lint_config = "$HOME/.pylintrc"
 
 " folding
 let g:pymode_folding = 0
