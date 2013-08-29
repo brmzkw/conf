@@ -56,6 +56,9 @@ autocmd WinEnter * match WhiteSpaceEOL /\s\+$/
 set backupdir=~/.vimbackups
 set directory=~/.vimbackups
 
+" When the file changes out of vim, do not pop a window to ask what to do
+" (reload the file, all files, do nothing...) and do it in console instead
+set guioptions+=c
 
 """""" python-mode configuration
 " code checker
