@@ -17,6 +17,7 @@ Bundle 'gmarik/vundle'
 
 """"" BUNDLES
 Bundle 'klen/python-mode'
+Bundle 'sjl/gundo.vim'
 
 " Preferences
 colorscheme desert
@@ -60,7 +61,13 @@ set directory=~/.vimbackups
 " (reload the file, all files, do nothing...) and do it in console instead
 set guioptions+=c
 
-"""""" python-mode configuration
+" load the plugin and indent settings for the detected filetype
+filetype plugin indent on
+filetype on
+
+""""""""""""""""""""""""""""
+" python-mode configuration
+""""""""""""""""""""""""""""
 " code checker
 let g:pymode_lint_checker = "pylint"
 
@@ -78,7 +85,8 @@ au FileType css set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 """""" HTML CONFIGURATION
 au FileType html set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 
-
-" load the plugin and indent settings for the detected filetype
-filetype plugin indent on
-filetype on
+"""""""""""""""""""""
+" gundo configuration
+"""""""""""""""""""""
+" show undo window on F5
+nnoremap <F5> :GundoToggle<CR>
