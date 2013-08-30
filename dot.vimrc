@@ -36,6 +36,7 @@ set hlsearch
 set mouse=a
 set scrolloff=10
 set autochdir
+set nolist
 
 if has("gui_running")
     set list
