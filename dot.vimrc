@@ -86,6 +86,9 @@ au FileType css set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 """""" HTML CONFIGURATION
 au FileType html set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 
+"""""" MARKDOWN CONFIGURATION
+au FileType md set noexpandtab " tabs aren't space!
+
 """""""""""""""""""""
 " gundo configuration
 """""""""""""""""""""
