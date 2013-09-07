@@ -57,6 +57,7 @@ match WhitespaceEOL /\s\+$/
 autocmd WinEnter * match WhiteSpaceEOL /\s\+$/
 
 " Backupdirs
+silent execute '!mkdir -p ~/.vimbackups'
 set backupdir=~/.vimbackups
 set directory=~/.vimbackups
 
