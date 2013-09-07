@@ -42,6 +42,8 @@ if has("gui_running")
     set list
     set lcs=tab:»·
     set lcs+=trail:·
+    set guioptions-=T " removetoolbar
+    set guioptions-=r " remove right-hand scrollbar
 endif
 
 " show line cursor
