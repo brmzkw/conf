@@ -37,6 +37,7 @@ set mouse=a
 set scrolloff=10
 set autochdir
 set nolist
+set number
 
 if has("gui_running")
     set list
