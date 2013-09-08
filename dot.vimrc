@@ -39,6 +39,10 @@ set autochdir
 set nolist
 set number
 
+" Disable bell (sound & visual)
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
+
 if has("gui_running")
     set list
     set lcs=tab:»·
