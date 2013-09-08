@@ -91,6 +91,9 @@ au FileType python set cursorcolumn " Show cursor column
 """""" CSS CONFIGURATION
 au FileType css set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 
+"""""" JAVASCRIPT CONFIGURATION
+au FileType javascript set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
+
 """""" HTML CONFIGURATION
 au FileType html set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 
