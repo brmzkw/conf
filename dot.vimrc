@@ -19,6 +19,9 @@ Bundle 'gmarik/vundle'
 Bundle 'klen/python-mode'
 Bundle 'sjl/gundo.vim'
 
+" syntax highlighting for jade templates
+Bundle 'digitaltoad/vim-jade'
+
 " Preferences
 colorscheme desert
 set backspace=indent,eol,start
