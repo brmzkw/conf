@@ -21,6 +21,8 @@ Bundle 'sjl/gundo.vim'
 
 " syntax highlighting for jade templates
 Bundle 'digitaltoad/vim-jade'
+" and for coffeescript
+Bundle 'kchmck/vim-coffee-script'
 
 " Preferences
 colorscheme desert
