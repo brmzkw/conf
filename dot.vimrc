@@ -107,6 +107,9 @@ au FileType html set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 """""" MARKDOWN CONFIGURATION
 au FileType md set noexpandtab " tabs aren't space!
 
+"""""" COFFEESCRIPT CONFIGURATION
+au FileType coffee set expandtab tabstop=2 shiftwidth=2
+
 """""""""""""""""""""
 " gundo configuration
 """""""""""""""""""""
