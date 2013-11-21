@@ -90,6 +90,33 @@ let g:pymode_lint_checker = "pylint"
 " folding
 let g:pymode_folding = 0
 
+" I never remember exactly tabstop / shiftwidth / softtabstop so this is a
+" recap to avoid me searching everytime I need to update my configuration:
+" [http://tedlogan.com/techblog3.html]
+"
+" >> tabstop
+"    Set tabstop to tell vim how many columns a tab counts for. Linux kernel
+"    code expects each tab to be eight columns wide. Visual Studio expects
+"    each tab to be four columns wide. This is the only command here that will
+"    affect how existing text displays.
+"
+"
+" >> expandtab
+"    When expandtab is set, hitting Tab in insert mode will produce the
+"    appropriate number of spaces.
+"
+" >> shiftwidth
+"    Set shiftwidth to control how many columns text is indented with the
+"    reindent operations (<< and >>) and automatic C-style indentation.
+"
+" >> softtabstop
+"    Set softtabstop to control how many columns vim uses when you hit Tab in
+"    insert mode. If softtabstop is less than tabstop and expandtab is not
+"    set, vim will use a combination of tabs and spaces to make up the desired
+"    spacing. If softtabstop equals tabstop and expandtab is not set, vim will
+"    always use tabs. When expandtab is set, vim will always use the
+"    appropriate number of spaces.
+
 """""" PYTHON CONFIGURATION
 " make Python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
 au FileType python set expandtab softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
