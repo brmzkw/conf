@@ -23,6 +23,8 @@ Bundle 'sjl/gundo.vim'
 Bundle 'digitaltoad/vim-jade'
 " and for coffeescript
 Bundle 'kchmck/vim-coffee-script'
+" javascript mode
+Bundle "pangloss/vim-javascript"
 
 " Preferences
 colorscheme desert
