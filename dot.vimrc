@@ -16,7 +16,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 """"" BUNDLES
-Bundle 'klen/python-mode'
+"Bundle 'klen/python-mode' " makes my vim crash :(
 Bundle 'sjl/gundo.vim'
 
 " syntax highlighting for jade templates
