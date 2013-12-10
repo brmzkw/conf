@@ -138,6 +138,9 @@ au FileType md set noexpandtab " tabs aren't space!
 """""" COFFEESCRIPT CONFIGURATION
 au FileType coffee set expandtab tabstop=2 shiftwidth=2
 
+"""""" JADE TEMPLATES CONFIGURATION
+au FileType jade set tabstop=2 softtabstop=2 shiftwidth=2 expandtab nowrap
+
 """""""""""""""""""""
 " gundo configuration
 """""""""""""""""""""
