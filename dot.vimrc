@@ -141,6 +141,9 @@ au FileType coffee set expandtab tabstop=2 shiftwidth=2
 """""" JADE TEMPLATES CONFIGURATION
 au FileType jade set tabstop=2 softtabstop=2 shiftwidth=2 expandtab nowrap
 
+"""""" Haskell CONFIGURATION
+au FileType haskell set tabstop=4 softtabstop=4 shiftwidth=4 expandtab nowrap
+
 """""""""""""""""""""
 " gundo configuration
 """""""""""""""""""""
