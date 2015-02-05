@@ -147,6 +147,9 @@ au FileType haskell set tabstop=4 softtabstop=4 shiftwidth=4 expandtab nowrap
 """""" shell configuration
 au FileType sh set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
+"""""" markdown
+au BufRead,BufNewFile *.md set filetype=markdown
+
 """""""""""""""""""""
 " gundo configuration
 """""""""""""""""""""
