@@ -150,6 +150,9 @@ au FileType sh set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 """""" markdown
 au BufRead,BufNewFile *.md set filetype=markdown
 
+"""""" .txt
+au FileType text set textwidth=0 " no auto \n after 79 cols
+
 """""""""""""""""""""
 " gundo configuration
 """""""""""""""""""""
