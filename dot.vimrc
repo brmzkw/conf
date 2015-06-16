@@ -119,42 +119,19 @@ let g:pymode_folding = 0
 "    always use tabs. When expandtab is set, vim will always use the
 "    appropriate number of spaces.
 
-"""""" PYTHON CONFIGURATION
-" make Python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
 au FileType python set expandtab softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
-
-"""""" CSS CONFIGURATION
 au FileType css set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
-
-"""""" JAVASCRIPT CONFIGURATION
 au FileType javascript set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-
-"""""" HTML CONFIGURATION
 au FileType html set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
-
-"""""" MARKDOWN CONFIGURATION
 au FileType md set noexpandtab " tabs aren't space!
-
-"""""" COFFEESCRIPT CONFIGURATION
 au FileType coffee set expandtab tabstop=2 shiftwidth=2
-
-"""""" JADE TEMPLATES CONFIGURATION
 au FileType jade set tabstop=2 softtabstop=2 shiftwidth=2 expandtab nowrap
-
-"""""" Haskell CONFIGURATION
 au FileType haskell set tabstop=4 softtabstop=4 shiftwidth=4 expandtab nowrap
-
-"""""" shell configuration
 au FileType sh set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-
-"""""" markdown
-au BufRead,BufNewFile *.md set filetype=markdown
-
-"""""" .txt
 au FileType text set textwidth=0 " no auto \n after 79 cols
 
-"""""" salt
-au BufEnter,BufNew *.sls set filetype=yaml
+au BufRead,BufNewFile *.md set filetype=markdown
+au BufRead,BufNewFile *.sls set filetype=yaml
 
 """""""""""""""""""""
 " gundo configuration
