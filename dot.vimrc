@@ -153,6 +153,9 @@ au BufRead,BufNewFile *.md set filetype=markdown
 """""" .txt
 au FileType text set textwidth=0 " no auto \n after 79 cols
 
+"""""" salt
+au BufEnter,BufNew *.sls set filetype=yaml
+
 """""""""""""""""""""
 " gundo configuration
 """""""""""""""""""""
