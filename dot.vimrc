@@ -131,7 +131,7 @@ au FileType sh set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 au FileType text set textwidth=0 " no auto \n after 79 cols
 
 au BufRead,BufNewFile *.md set filetype=markdown
-au BufRead,BufNewFile *.sls set filetype=yaml
+au BufRead,BufNewFile *.sls set filetype=yaml softtabstop=2
 
 """""""""""""""""""""
 " gundo configuration
