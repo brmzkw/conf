@@ -25,6 +25,9 @@ Bundle 'digitaltoad/vim-jade'
 Bundle 'kchmck/vim-coffee-script'
 " javascript mode
 Bundle "pangloss/vim-javascript"
+" Yaml files in vim 7.4 are really slow, due to core yaml syntax. This syntax is simpler/faster.
+Bundle "stephpy/vim-yaml"
+
 
 " Preferences
 colorscheme desert
