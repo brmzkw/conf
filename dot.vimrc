@@ -27,6 +27,8 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle "pangloss/vim-javascript"
 " Yaml files in vim 7.4 are really slow, due to core yaml syntax. This syntax is simpler/faster.
 Bundle "stephpy/vim-yaml"
+" sls syntax
+Bundle "saltstack/salt-vim"
 
 
 " Preferences
@@ -134,7 +136,7 @@ au FileType sh set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 au FileType text set textwidth=0 " no auto \n after 79 cols
 
 au BufRead,BufNewFile *.md set filetype=markdown
-au BufRead,BufNewFile *.sls set filetype=yaml softtabstop=2
+au BufRead,BufNewFile *.sls set softtabstop=2
 
 """""""""""""""""""""
 " gundo configuration
