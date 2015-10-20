@@ -30,6 +30,8 @@ Bundle "stephpy/vim-yaml"
 " sls syntax
 Bundle "saltstack/salt-vim"
 
+Plugin 'fatih/vim-go'
+
 
 " Preferences
 colorscheme desert
@@ -134,6 +136,7 @@ au FileType jade set tabstop=2 softtabstop=2 shiftwidth=2 expandtab nowrap
 au FileType haskell set tabstop=4 softtabstop=4 shiftwidth=4 expandtab nowrap
 au FileType sh set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 au FileType text set textwidth=0 " no auto \n after 79 cols
+au FileType go set nolist
 
 au BufRead,BufNewFile *.md set filetype=markdown
 au BufRead,BufNewFile *.sls set softtabstop=2 textwidth=0
