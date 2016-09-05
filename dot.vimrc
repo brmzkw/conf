@@ -149,3 +149,5 @@ au BufRead,BufNewFile *.sls set softtabstop=2 textwidth=0
 """""""""""""""""""""
 " show undo window on F5
 nnoremap <F5> :GundoToggle<CR>
+
+cmap w!! w !sudo tee % >/dev/null
