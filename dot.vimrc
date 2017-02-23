@@ -30,6 +30,8 @@ Bundle "stephpy/vim-yaml"
 " sls syntax
 Bundle "saltstack/salt-vim"
 
+Bundle "leafgarland/typescript-vim"
+
 Plugin 'fatih/vim-go'
 
 
