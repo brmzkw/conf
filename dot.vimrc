@@ -135,6 +135,7 @@ au FileType html set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 au FileType md set noexpandtab " tabs aren't space!
 au FileType coffee set expandtab tabstop=2 shiftwidth=2
 au FileType jade set tabstop=2 softtabstop=2 shiftwidth=2 expandtab nowrap
+au FileType typescript set tabstop=2 softtabstop=2 shiftwidth=2 expandtab nowrap
 au FileType haskell set tabstop=4 softtabstop=4 shiftwidth=4 expandtab nowrap
 au FileType sh set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 au FileType c set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
