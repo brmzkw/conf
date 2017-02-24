@@ -23,14 +23,17 @@ Bundle 'sjl/gundo.vim'
 Bundle 'digitaltoad/vim-jade'
 " and for coffeescript
 Bundle 'kchmck/vim-coffee-script'
-" javascript mode
-Bundle "pangloss/vim-javascript"
 " Yaml files in vim 7.4 are really slow, due to core yaml syntax. This syntax is simpler/faster.
 Bundle "stephpy/vim-yaml"
 " sls syntax
 Bundle "saltstack/salt-vim"
 
 Bundle "leafgarland/typescript-vim"
+
+" React
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+let g:jsx_ext_required = 0 " If 1, only set coloration for .jsx files
 
 Plugin 'fatih/vim-go'
 
