@@ -35,8 +35,6 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 let g:jsx_ext_required = 0 " If 1, only set coloration for .jsx files
 
-Plugin 'fatih/vim-go'
-
 
 " Preferences
 colorscheme desert
@@ -146,7 +144,6 @@ au FileType c set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 au FileType text set textwidth=0 " no auto \n after 79 cols
 
 au FileType go set nolist
-autocmd BufWritePre *.go GoImports " call GoImports on save
 
 au BufRead,BufNewFile *.md set filetype=markdown
 au BufRead,BufNewFile *.sls set softtabstop=2 textwidth=0
