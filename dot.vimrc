@@ -84,6 +84,16 @@ autocmd WinEnter * match WhiteSpaceEOL /\s\+$/
 silent execute '!mkdir -p ~/.vimbackups'
 set backupdir=~/.vimbackups
 set directory=~/.vimbackups
+set noswapfile
+
+" When writing a file and a backup is made, this option tells how it's
+" done.  This is a comma separated list of words.
+"
+" The main values are:
+" ye"   make a copy of the file and overwrite the original one
+" no    rename the file and write a new one
+" auto  one of the previous, what works best
+set backupcopy=yes
 
 " When the file changes out of vim, do not pop a window to ask what to do
 " (reload the file, all files, do nothing...) and do it in console instead
