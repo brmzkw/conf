@@ -35,6 +35,10 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 let g:jsx_ext_required = 0 " If 1, only set coloration for .jsx files
 
+" Golang
+Plugin 'fatih/vim-go'
+" Auto import on save
+autocmd BufWritePre *.go :GoImports
 
 " Preferences
 colorscheme desert
