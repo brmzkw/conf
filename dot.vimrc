@@ -31,9 +31,10 @@ Bundle "saltstack/salt-vim"
 Bundle "leafgarland/typescript-vim"
 
 " Preview mardkwon with ctrl+p. Requires to install "markdown" with:
-" "brew install markdown".
+" "brew install grip".
 Plugin 'JamshedVesuna/vim-markdown-preview'
 let vim_markdown_preview_browser='Firefox'
+let vim_markdown_preview_github=1 " more beautiful than the default renderer
 
 " React
 Plugin 'pangloss/vim-javascript'
