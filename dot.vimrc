@@ -57,7 +57,7 @@ Plugin 'fatih/vim-go'
 " Auto import on save
 autocmd BufWritePre *.go :GoImports
 
-# Linters
+" Linters
 Plugin 'dense-analysis/ale'
 
 let b:ale_linters = ['eslint']
