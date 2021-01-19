@@ -48,6 +48,7 @@ let g:rustfmt_autosave = 1
 Plugin 'racer-rust/vim-racer'
 augroup Racer
     autocmd!
+    autocmd FileType rust nmap <buffer> ed         <Plug>(rust-def)
     autocmd FileType rust nmap <buffer> rd         <Plug>(rust-def-vertical)
 augroup END
 
@@ -55,6 +56,14 @@ augroup END
 Plugin 'fatih/vim-go'
 " Auto import on save
 autocmd BufWritePre *.go :GoImports
+
+# Linters
+Plugin 'dense-analysis/ale'
+
+let b:ale_linters = ['eslint']
+" Only run linters named in ale_linters settings.
+let g:ale_linters_explicit = 1
+let g:ale_fix_on_save = 1
 
 " Preferences
 colorscheme desert
