@@ -41,6 +41,9 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 let g:jsx_ext_required = 0 " If 1, only set coloration for .jsx files
 
+" cuelang
+Plugin 'jjo/vim-cue'
+
 " Rust
 Plugin 'rust-lang/rust.vim'
 let g:rustfmt_autosave = 1
