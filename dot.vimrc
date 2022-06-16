@@ -170,6 +170,8 @@ let g:pymode_folding = 0
 "    spacing. If softtabstop equals tabstop and expandtab is not set, vim will
 "    always use tabs. When expandtab is set, vim will always use the
 "    appropriate number of spaces.
+au BufEnter,BufRead *.ts set filetype=typescript
+au BufEnter,BufRead *.tsx set filetype=typescript.tsx
 
 au FileType python set expandtab softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
 au FileType css set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
@@ -178,8 +180,9 @@ au FileType html set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 au FileType md set noexpandtab " tabs aren't space!
 au FileType coffee set expandtab tabstop=2 shiftwidth=2
 au FileType jade set tabstop=2 softtabstop=2 shiftwidth=2 expandtab nowrap
-au FileType typescript set tabstop=2 softtabstop=2 shiftwidth=2 expandtab nowrap
 au FileType javascript.jsx set tabstop=2 softtabstop=2 shiftwidth=2 expandtab nowrap
+au FileType typescript set tabstop=2 softtabstop=2 shiftwidth=2 expandtab nowrap
+au FileType typescript.tsx set tabstop=2 softtabstop=2 shiftwidth=2 expandtab nowrap
 au FileType haskell set tabstop=4 softtabstop=4 shiftwidth=4 expandtab nowrap
 au FileType sh set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 au FileType c set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
