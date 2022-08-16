@@ -88,6 +88,11 @@ set autochdir
 set nolist
 set number
 
+
+set ignorecase " Makes pattern matching case-insensitive
+set smartcase " Overrides ignorecase if your pattern contains mixed case
+
+
 set cursorcolumn " Show cursor column
 
 " Disable bell (sound & visual)
